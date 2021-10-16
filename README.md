@@ -1,0 +1,2 @@
+# counter
+*amazing_counter
