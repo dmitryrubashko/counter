@@ -10,10 +10,6 @@ const Header = () => {
         <button className={styles.button}>Home Page</button>
       </Link>
 
-      <Link to={ROUTES.USERS_PAGE}>
-        <button className={styles.button}>Users Page</button>
-      </Link>
-
       <Link to={ROUTES.COUNTER_PAGE}>
         <button className={styles.button}>Counter Page</button>
       </Link>

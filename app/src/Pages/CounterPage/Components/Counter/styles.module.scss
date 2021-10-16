@@ -1,5 +1,7 @@
 .wrapper {
-  max-width: 50vw;
+  background: #33889d;
+  margin: 0 auto;
+  max-width: 20vw;
   padding: 25px;
   border: 5px solid #53258d;
   border-radius: 10px;
@@ -9,7 +11,8 @@
 }
 
 .display {
-  max-width: 120px;
+  max-width: 100px;
+  max-height: 50px;
   width: 100%;
   text-align: center;
   padding: 25px;
@@ -17,10 +20,13 @@
   background-color: #e15441;
   color: #282c34;
   margin-bottom: 25px;
-  font-size: 25px;
+  font-size: 50px;
+  align-items: center;
 }
 
 .controlButton {
+
+  font-size: 100px;
   background: #258d49;
   width: 100px;
   height: 100px;
