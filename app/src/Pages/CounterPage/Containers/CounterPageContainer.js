@@ -21,7 +21,8 @@ class CounterPageContainer extends Component {
 
   handleDecrement = () => {
     this.setState((state) => {
-      const newValue = state.countValue - 1;
+      const newValue = state.countValue - 1 < 0 ? 0: state.countValue - 1;
+
       const newType = newValue % 2 === 0 ? state.parityType = 'Even Number' : state.parityType = 'Odd Number';
 
       return {
