@@ -1,14 +1,16 @@
 
 .headerButtons {
   margin: 15px auto;
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
 }
 
 .button {
   font-family: sans-serif;
   border-radius: 15px;
   background: rgba(81, 107, 189, 0.83);
-  font-size: 20px;
+  font-size: 15px;
   color: #164f2b;
   width: 200px;
   height: 50px;

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.modules.scss'
-import Header from "../../Components/Header";
 
 
 const homePage = () => {

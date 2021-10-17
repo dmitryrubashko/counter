@@ -11,7 +11,11 @@ const Header = () => {
       </Link>
 
       <Link to={ROUTES.COUNTER_PAGE}>
-        <button className={styles.button}>Counter Page</button>
+        <button className={styles.button}>Counter Page (Without negative values)</button>
+      </Link>
+
+      <Link to={ROUTES.COUNTER_PAGE_WITH_NEG_VALUE}>
+        <button className={styles.button}>Counter Page (Positive and negative values)</button>
       </Link>
 
     </div>
