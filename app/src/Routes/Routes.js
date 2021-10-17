@@ -1,4 +1,3 @@
-import React from 'react';
 import {Switch, Route, Redirect} from "react-router-dom";
 import homePage from "../Pages/Home";
 import CounterPageContainer from "../Pages/CounterPage/Containers/CounterPageContainer";
