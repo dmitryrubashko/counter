@@ -18,7 +18,7 @@ const Counter = ({countValue, handleIncrement, handleDecrement, parityType, hand
       </div>
 
       <div className={styles.contolButtons}>
-        <button className={styles.controlButton} onClick={handleDecrement}>-</button>
+        <button className={styles.controlButtonLeft} onClick={handleDecrement}>-</button>
         <button className={styles.resetButton} onClick={handleReset}>Reset</button>
         <button className={styles.controlButton} onClick={handleIncrement}>+</button>
       </div>
