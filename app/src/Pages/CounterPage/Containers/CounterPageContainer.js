@@ -47,8 +47,6 @@ class CounterPageContainer extends Component {
       parityType={this.state.parityType}
       handleIncrement={this.handleIncrement}
       handleDecrement={this.handleDecrement}
-      isHidden={this.state.isHidden}
-      handleHiddenToggle={this.handleHiddenToggle}
       handleReset={this.handleReset}
     />
     );
