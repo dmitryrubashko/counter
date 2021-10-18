@@ -9,11 +9,9 @@ class CounterPageContainer2 extends Component {
   handleIncrement = () => {
     this.setState((state) => {
       const newValue = state.countValue + 1;
-      const newType = newValue % 2 === 0 ? state.parityType = 'Even Number' : state.parityType = 'Odd Number';
 
       return {
-        countValue: newValue,
-        parityType: newType,
+        countValue: newValue
       }
     })
   }
@@ -22,25 +20,25 @@ class CounterPageContainer2 extends Component {
     this.setState((state) => {
       const newValue = state.countValue - 1;
 
-      const newType = newValue % 2 === 0 ? state.parityType = 'Even Number' : state.parityType = 'Odd Number';
-
       return {
-        countValue: newValue,
-        parityType: newType,
+        countValue: newValue
       }
     })
   }
 
   handleReset = () => {
     this.setState({countValue: this.state.countValue = 0});
-    this.state.parityType = 'Even Number'
+  }
+
+  parity = () => {
+    return this.state.countValue % 2 === 0 ? this.state.parityType = 'Even Number' : this.state.parityType = 'Odd Number';
   }
 
   render() {
     return (
       <Counter2
       countValue={this.state.countValue}
-      parityType={this.state.parityType}
+      parityType={this.parity()}
       handleIncrement={this.handleIncrement}
       handleDecrement={this.handleDecrement}
       handleReset={this.handleReset}
