@@ -31,12 +31,9 @@ class CounterPageContainer2 extends Component {
     })
   }
 
-  handleHiddenToggle = () => {
-    this.setState({...this.state, isHidden: !this.state.isHidden})
-  }
-
   handleReset = () => {
-    this.setState({countValue: this.state.countValue = 0, parityType: this.state.parityType = 'Even Number'})
+    this.setState({countValue: this.state.countValue = 0});
+    this.state.parityType = 'Even Number'
   }
 
   render() {

@@ -20,24 +20,23 @@ class CounterPageContainer extends Component {
   }
 
   handleDecrement = () => {
-    this.setState((state) => {
-      const newValue = state.countValue - 1 < 0 ? 0: state.countValue - 1;
+    if (this.state.countValue >= 1) {  // this.state.countValue > 0
+      this.setState((state) => {
+        const newValue = state.countValue - 1;
+        const newType = newValue % 2 === 0 ? state.parityType = 'Even Number' : state.parityType = 'Odd Number';
 
-      const newType = newValue % 2 === 0 ? state.parityType = 'Even Number' : state.parityType = 'Odd Number';
+        return {
+          countValue: newValue,
+          parityType: newType,
+        }
+      })
+    }
 
-      return {
-        countValue: newValue,
-        parityType: newType,
-      }
-    })
-  }
-
-  handleHiddenToggle = () => {
-    this.setState({...this.state, isHidden: !this.state.isHidden})
   }
 
   handleReset = () => {
-    this.setState({countValue: this.state.countValue = 0, parityType: this.state.parityType = 'Even Number'})
+    this.setState({countValue: this.state.countValue = 0});
+    this.state.parityType = 'Even Number'
   }
 
   render() {
