@@ -3,7 +3,7 @@ import {BrowserRouter} from "react-router-dom";
 import './index.css';
 
 import Routes from "./Routes/Routes";
-import MainLayout from "./Components/Layout/MainLayout";
+import MainLayout from "./commonComponents/Layout/MainLayout";
 
 ReactDOM.render(
   <BrowserRouter>

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import Counter from "../Components/Counter";
+import Counter from "../../../commonComponents/Counter";
 
 class CounterPageContainer extends Component {
+
   state = {
       countValue: 0,
       parityType: 'Even Number',

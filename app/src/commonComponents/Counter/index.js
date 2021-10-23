@@ -2,9 +2,15 @@ import React from 'react';
 import styles from './styles.module.scss'
 import PropTypes from "prop-types"
 
-const Counter = ({countValue, handleIncrement, handleDecrement, parityType, handleReset}) => {
+
+const Counter = ({countValue, handleIncrement, handleDecrement, handleReset}) => {
+
+  const isEven = countValue % 2 === 0;
+
   return (
-    <div className={styles.wrapper} style={{backgroundColor: parityType === 'Even Number'? 'rgb(93, 78, 91)' : 'rgb(96, 79, 61)'}}>
+    <>
+
+    <div className={styles.wrapper} style={{backgroundColor: isEven? 'rgb(93, 78, 91)' : 'rgb(96, 79, 61)'}}>
 
       <div className={styles.description}>SuperMegaCounter2000</div>
 
@@ -13,7 +19,7 @@ const Counter = ({countValue, handleIncrement, handleDecrement, parityType, hand
       </div>
 
       <div className={styles.propertiesDisplay}>
-        {parityType}
+        {isEven ? 'Even Number' : 'Odd Number'}
       </div>
 
       <div className={styles.contolButtons}>
@@ -23,6 +29,7 @@ const Counter = ({countValue, handleIncrement, handleDecrement, parityType, hand
       </div>
 
     </div>
+    </>
   );
 };
 
