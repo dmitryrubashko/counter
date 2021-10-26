@@ -1,4 +1,3 @@
-
 import FunctionalCounterLayout from "../Components/Layout";
 import {useCounter} from "../../../Hooks";
 

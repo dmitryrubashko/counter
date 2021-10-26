@@ -8,8 +8,10 @@ export const useCounter = (initialCount) => {
     }, [count]);
 
   const handleIncrement = useCallback(() => {
-    setCount((state) => state + 1)
+    setCount((state) => state + 1);
   }, []);
+
+
 
   const handleReset = useCallback(() => setCount(initialCount), []);
 

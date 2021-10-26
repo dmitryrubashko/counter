@@ -15,8 +15,12 @@ const homePage = () => {
         <button className={styles.button}>Simple Counter</button>
       </Link>
 
-      <Link to={ROUTES.FUNCTIONAL_COUNTERS}>
-        <button className={styles.button}>Counter of Counters</button>
+      <Link to={ROUTES.COUNTERS_MANAGER}>
+        <button className={styles.button}>Counters Manager</button>
+      </Link>
+
+      <Link to={ROUTES.REDUX_COUNTER}>
+        <button className={styles.button}>Redux Counter</button>
       </Link>
     </div>
       <h1>Home Page</h1>

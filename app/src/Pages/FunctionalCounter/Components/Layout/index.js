@@ -12,6 +12,7 @@ const FunctionalCounterLayout = ({countValue, handleDecrement, handleIncrement, 
         </Link>
       </div>
       <h1>Functional Counter</h1>
+
       <Counter countValue={countValue}
                handleIncrement={handleIncrement}
                handleDecrement={handleDecrement}
