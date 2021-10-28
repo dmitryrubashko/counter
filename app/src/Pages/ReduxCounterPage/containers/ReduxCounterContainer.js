@@ -1,4 +1,4 @@
-import ReduxCounterLayout from "../components/ReduceCounterLayout";
+import ReduxCounterLayout from "../components/ReduxCounterLayout";
 import {useDispatch, useSelector} from "react-redux";
 import {CREATE_COUNTER, INCREASE_COUNTER} from "../actions";
 import {useCallback} from "react";

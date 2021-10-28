@@ -5,4 +5,5 @@ export const ROUTES = {
   USERS_PAGE: '/users',
   COUNTERS_MANAGER: '/counters-manager',
   REDUX_COUNTER: '/redux-counter',
+  FORM: '/form',
 }

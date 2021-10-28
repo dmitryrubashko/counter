@@ -15,6 +15,7 @@ const countersPageReducer = handleActions({
       counters: stateCopy
     };
   },
+
   [actions.INCREASE_COUNTER]: (state, action) => {
     const counterId = action.payload;
     const updatedCounters = state.counters.map(({id, countValue}) => ({

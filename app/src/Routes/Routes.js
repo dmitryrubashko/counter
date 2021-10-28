@@ -5,6 +5,7 @@ import FunctionalCounterContainer from "../Pages/FunctionalCounter/Containers/Fu
 import ReduxCounterContainer from "../Pages/ReduxCounterPage/containers/ReduxCounterContainer";
 import UsersPageContainer from "../Pages/UsersPage/Containers/UsersPageContainer";
 import CountersManagerContainer from "../Pages/CountersManager/Containers/CountersManagerContainer";
+import FormPageContainer from "../Pages/FormPage/Container/FormPageContainer";
 
 import {ROUTES} from "./routeNames";
 
@@ -17,6 +18,7 @@ const Routes = () => {
       <Route path={ROUTES.FUNCTIONAL_COUNTER} component={FunctionalCounterContainer}/>
       <Route path={ROUTES.COUNTERS_MANAGER} component={CountersManagerContainer}/>
       <Route path={ROUTES.REDUX_COUNTER} component={ReduxCounterContainer}/>
+      <Route path={ROUTES.FORM} component={FormPageContainer}/>
       <Redirect path='*' to={ROUTES.HOME}/>
     </Switch>
   );

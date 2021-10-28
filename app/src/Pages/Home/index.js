@@ -22,6 +22,10 @@ const homePage = () => {
       <Link to={ROUTES.REDUX_COUNTER}>
         <button className={styles.button}>Redux Counter</button>
       </Link>
+
+      <Link to={ROUTES.FORM}>
+        <button className={styles.button}>Form</button>
+      </Link>
     </div>
       <h1>Home Page</h1>
     </>
