@@ -1,39 +1,37 @@
-import {useState, useCallback} from "react";
+import {useState, useCallback, useEffect} from "react";
 import Form from "../Components/Form";
+import {useForm} from "../../../Hooks";
+import {debounce} from "lodash";
 
 const FormPageContainer = () => {
-  const [formData, setFormData] = useState({
+
+  const [formData, onFormChange] = useForm({
     email: '',
     password: '',
-  })
+  });
+
+  const [dataToDisplay, setDataToDisplay] = useState({});
+
+  const handleSetDataToDisplay = useCallback((data) => {
+    setDataToDisplay(data)
+  }, [formData])
+
+  const debouncedSetData = useCallback(debounce((data) => {
+    handleSetDataToDisplay(data)
+  }, 500), []);
+
+  useEffect(() => {
+    debouncedSetData(formData)
+  }, [formData])
+
   const [isFormPrinted, setFormPrinted] = useState(false);
 
-  const onFormChange = useCallback((event) => {
-    const {value, name} = event.target;
-    setFormData({...formData,  [name]: value})
-    }, [formData])
-
-  const handleFormPrint = useCallback((event) => {
-    event.preventDefault();
-    setFormPrinted(true)
-  }, [])
   return (
-    <>
-      <h1>Form Page</h1>
-
-      <Form
-        formData={formData}
-        onFormChange={onFormChange}
-        onSubmit={handleFormPrint}
-      />
-
-      {isFormPrinted && (
-        <div>
-          <p>Email: {formData.email}</p>
-          <p>Password: {formData.password}</p>
-        </div>
-      )}
-    </>
+    <Form
+      formData={formData}
+      onFormChange={onFormChange}
+      dataToDisplay = {dataToDisplay}
+    />
   );
 };
 

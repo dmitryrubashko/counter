@@ -1,7 +1,11 @@
+import DisplayData from "../DisplayData";
+
 const Form = ({
                 formData,
                 onFormChange,
-                onSubmit}) => {
+                onSubmit,
+                dataToDisplay
+}) => {
   return (
     <div>
       <form onSubmit={onSubmit}>
@@ -17,8 +21,9 @@ const Form = ({
           <button type={'submit'}>Print Form</button>
         </div>
       </form>
-
+      <DisplayData data={dataToDisplay}/>
     </div>
+
   );
 };
 

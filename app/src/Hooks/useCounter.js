@@ -18,3 +18,4 @@ export const useCounter = (initialCount) => {
   return [count, handleIncrement, handleDecrement, handleReset]
 }
 
+export default useCounter
