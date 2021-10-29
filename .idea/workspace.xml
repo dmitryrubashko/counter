@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63b0d9de-59cd-4d9a-9aeb-5c8083358e1b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zaKNF6AydvOZnhwVfUpTccpDIe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/app/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\IT SHATLE REACT\counter\app\src\Pages\CounterPage\Components\Counter" />
+      <recent name="D:\IT\IT SHATLE REACT\counter\app\src\Pages\CounterPage\Containers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\IT SHATLE REACT\counter\app\src\commonComponents" />
+      <recent name="D:\IT\IT SHATLE REACT\counter\app\src\Pages\UsersPage\Components" />
+      <recent name="D:\IT\IT SHATLE REACT\counter\app\src\Pages\UsersPage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/app/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63b0d9de-59cd-4d9a-9aeb-5c8083358e1b" name="Changes" comment="" />
+      <created>1634380717169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634380717169</updated>
+      <workItem from="1634380719203" duration="1009000" />
+      <workItem from="1634381760823" duration="240000" />
+      <workItem from="1634382029484" duration="289000" />
+      <workItem from="1634382334997" duration="12713000" />
+      <workItem from="1634395740849" duration="4659000" />
+      <workItem from="1634404904805" duration="12126000" />
+      <workItem from="1634417696015" duration="5031000" />
+      <workItem from="1634460398409" duration="19855000" />
+      <workItem from="1634482824945" duration="116000" />
+      <workItem from="1634482984679" duration="7489000" />
+      <workItem from="1634491204529" duration="729000" />
+      <workItem from="1634496344388" duration="4135000" />
+      <workItem from="1634570916641" duration="10252000" />
+      <workItem from="1634657804172" duration="15133000" />
+      <workItem from="1634830470291" duration="4960000" />
+      <workItem from="1634836867229" duration="3039000" />
+      <workItem from="1634839944178" duration="37000" />
+      <workItem from="1634840002787" duration="3695000" />
+      <workItem from="1634979334800" duration="1441000" />
+      <workItem from="1634984234922" duration="25579000" />
+      <workItem from="1635064548636" duration="9979000" />
+      <workItem from="1635076629397" duration="13262000" />
+      <workItem from="1635095621145" duration="288000" />
+      <workItem from="1635096098003" duration="885000" />
+      <workItem from="1635099857795" duration="808000" />
+      <workItem from="1635262286703" duration="9301000" />
+      <workItem from="1635274581840" duration="8858000" />
+      <workItem from="1635438113731" duration="13829000" />
+      <workItem from="1635458328951" duration="101000" />
+      <workItem from="1635523487107" duration="10054000" />
+      <workItem from="1635536807097" duration="413000" />
+      <workItem from="1635537312259" duration="318000" />
+      <workItem from="1635537647550" duration="2163000" />
+      <workItem from="1635540504674" duration="1266000" />
+      <workItem from="1635541887156" duration="507000" />
+      <workItem from="1635542447694" duration="533000" />
+      <workItem from="1635543015894" duration="492000" />
+      <workItem from="1635543658858" duration="343000" />
+      <workItem from="1635544007242" duration="53000" />
+      <workItem from="1635544084153" duration="367000" />
+      <workItem from="1635544967731" duration="473000" />
+      <workItem from="1635545447508" duration="45000" />
+      <workItem from="1635545729511" duration="325000" />
+      <workItem from="1635546059632" duration="52000" />
+      <workItem from="1635546330478" duration="401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
